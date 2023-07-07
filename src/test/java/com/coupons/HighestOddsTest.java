@@ -1,7 +1,6 @@
 package com.coupons;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
@@ -11,7 +10,6 @@ import org.junit.Test;
 public class HighestOddsTest {
     @Test
     public void test1() {
-        
         //When
         int expected = HighestOdds.highestProbability(24);
 
@@ -20,7 +18,6 @@ public class HighestOddsTest {
     }
     @Test
     public void test2() {
-        
         //When
         int expected = HighestOdds.highestProbability(90);
 
@@ -29,7 +26,6 @@ public class HighestOddsTest {
     }
     @Test
     public void test3() {
-        
         //When
         int expected = HighestOdds.highestProbability(9);
 
@@ -38,7 +34,6 @@ public class HighestOddsTest {
     }
     @Test
     public void test4() {
-        
         //When
         int expected = HighestOdds.highestProbability(89);
 
